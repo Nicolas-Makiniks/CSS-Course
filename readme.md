@@ -1,4 +1,4 @@
-#CSS COURSE
+# CSS COURSE
 
 > This repository is about CSS and how it works for my learning
 
