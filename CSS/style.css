@@ -1,0 +1,9 @@
+body {
+    background-color: #3f0f2d;
+    color: white;
+}
+
+body a {
+    text-decoration: none;
+    color: #999;
+}
