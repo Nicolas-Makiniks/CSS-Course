@@ -1,9 +1,41 @@
-body {
-    background-color: #3f0f2d;
+* {
     color: white;
+    text-decoration: none;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-body a {
-    text-decoration: none;
+body {
+    background-image: url(../img/space-background.jpg); 
+}
+
+header {
+    background-color: #8f2364;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.menu {
+    background-color: #1a0612;
+    overflow: hidden;
+    padding: 10px 0px 0px 10px;
+}
+
+nav a {
     color: #999;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+}
+
+nav :hover {
+    color: white;
+    background-color: black;
+}
+
+.content {
+    background-color: #3f0f2d;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
 }
