@@ -1,12 +1,11 @@
 * {
-    color: white;
     text-decoration: none;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(../img/space-background.jpg); 
+header, nav a, .content {
+    color: white;
 }
 
 header {
@@ -15,26 +14,23 @@ header {
     padding: 40px 0px;
 }
 
-.menu {
-    background-color: #1a0612;
+nav {
     overflow: hidden;
-    padding: 10px 0px 0px 10px;
+    background-color: #771d53;
 }
 
 nav a {
-    color: #999;
     padding: 14px 16px;
     display: block;
     float: left;
 }
 
 nav :hover {
-    color: white;
-    background-color: black;
+    background-color: #3f0f2d;
 }
 
 .content {
-    background-color: #3f0f2d;
+    background-color: black;
     float: left;
     padding: 10px;
     border-radius: 10px;
