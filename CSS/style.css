@@ -2,6 +2,7 @@
     text-decoration: none;
     margin: 0px;
     box-sizing: border-box;
+    color: white;
 }
 
 header {
@@ -28,9 +29,8 @@ nav :hover {
 }
 
 article {
-    margin: 4px;
-    color:white;
     background-color: black;
+    margin: 4px;
     padding: 10px;
     border-radius: 5px;
 }
