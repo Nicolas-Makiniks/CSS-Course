@@ -6,7 +6,6 @@
 }
 
 header {
-    color: white;
     background-color: #8f2364;
     text-align: center;
     padding: 40px 0px;
@@ -18,7 +17,6 @@ nav {
 }
 
 nav a {
-    color: white;
     padding: 14px 16px;
     display: block;
     float: left;
