@@ -1,0 +1,44 @@
+#colorTag p {
+    color:aquamarine;
+}
+
+#backgroundTag {
+    background-color: burlywood;
+}
+
+#backgroundTag p {
+    color: black;
+}
+
+#borderTag {
+    border-style: dashed;
+}
+
+#marginTag {
+    margin-left: 25px;
+}
+
+#paddingTag {
+    padding-left: 50px;
+}
+
+#sizeTag {
+    width: 200px;
+    height: auto;
+}
+
+#fontTag {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#linkTag a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#linkTag a:hover {
+    background-color: rgb(1, 201, 1);
+    padding: 7px;
+}
