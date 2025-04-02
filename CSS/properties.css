@@ -1,17 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
 #colorTag p {
     color:aquamarine;
 }
 
-#backgroundTag {
+#bgColorTag {
     background-color: burlywood;
 }
 
-#backgroundTag p {
+#bgColorTag p {
     color: black;
+}
+
+#bgImgTag {
+    /* background-image: url(../img/space-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black; 
+    
+    Is the same below but with in one line
+    */
+    background-size: cover;
+    background: black url(../img/space-background.jpg) no-repeat center;
+    
 }
 
 #borderTag {
     border-style: dashed;
+    border-color: cyan;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 #marginTag {
@@ -22,13 +40,47 @@
     padding-left: 50px;
 }
 
+#textRtl {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#textAlign {
+    text-align: center;
+}
+
+#textDecoration {
+    text-decoration: underline;
+}
+
+#textTransformation {
+    text-transform: uppercase;
+}
+
+#textIdent {
+    text-indent: 50px;
+}
+
+#textSpace {
+    letter-spacing: 5px;
+}
+
+#textHeight {
+    line-height: 1px;
+}
+
+#textWordSpace {
+    word-spacing: 15px;
+}
+
 #sizeTag {
     width: 200px;
     height: auto;
 }
 
 #fontTag {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Winky Sans", sans-serif;
+    font-size: 24px;
 }
 
 #linkTag a {
