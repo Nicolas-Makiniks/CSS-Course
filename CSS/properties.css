@@ -81,16 +81,50 @@
 #fontTag {
     font-family: "Winky Sans", sans-serif;
     font-size: 24px;
+    font-weight: bold;
 }
 
-#linkTag a {
+a.buttom1 {
     background-color: green;
     color: white;
     text-decoration: none;
     padding: 5px;
 }
 
-#linkTag a:hover {
+a.buttom1:hover {
     background-color: rgb(1, 201, 1);
     padding: 7px;
+}
+
+a.buttom2 {
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+}
+
+a.buttom2:hover {
+    padding: 7px;
+    background-color: white;
+    color: black;
+}
+
+a.buttom3 {
+    color: white;
+}
+
+a.buttom3:hover {
+    border-bottom: 5px solid white;
+}
+
+a.buttom4 {
+    color: white;
+}
+
+a.buttom4:hover {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a.buttom5 {
+    cursor: help;
 }
