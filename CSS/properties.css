@@ -128,3 +128,32 @@ a.buttom4:hover {
 a.buttom5 {
     cursor: help;
 }
+
+a.buttom {
+    display: inline-block;
+    padding: 5px;
+}
+
+a.buttom:hover {
+    padding: 10px;
+}
+
+a.red {
+    background-color: red;
+    color: white;
+}
+
+a.white {
+    background-color: white;
+    color: black;
+}
+
+a.block {
+    display: block;
+    padding: 5px;
+}
+
+a.block:hover {
+    padding: 10px;
+    border: 5px solid black;
+}
