@@ -95,57 +95,63 @@
     font-weight: bold;
 }
 
-a.buttom1 {
+a.button1 {
     background-color: green;
     color: white;
     text-decoration: none;
     padding: 5px;
+    border: none;
 }
 
-a.buttom1:hover {
+a.button1:hover {
     background-color: rgb(1, 201, 1);
     padding: 7px;
 }
 
-a.buttom2 {
+a.button2 {
     border: 1px solid white;
     padding: 5px;
     color: white;
 }
 
-a.buttom2:hover {
+a.button2:hover {
     padding: 7px;
     background-color: white;
     color: black;
 }
 
-a.buttom3 {
+a.button3 {
     color: white;
+    border: none;
 }
 
-a.buttom3:hover {
+a.button3:hover {
     border-bottom: 5px solid white;
+    background-color: black;
 }
 
-a.buttom4 {
+a.button4 {
     color: white;
+    border: none;
 }
 
-a.buttom4:hover {
+a.button4:hover {
     font-size: 24px;
     font-weight: bold;
+    background-color: black;
 }
 
-a.buttom5 {
+a.button5 {
     cursor: help;
 }
 
-a.buttom {
+a.button {
     display: inline-block;
     padding: 5px;
+    border: none;
 }
 
-a.buttom:hover {
+a.button:hover {
     padding: 7px;
     border: 2px solid white;
 }
@@ -163,6 +169,7 @@ a.white {
 a.block {
     display: block;
     padding: 5px;
+    border: none;
 }
 
 a.block:hover {
