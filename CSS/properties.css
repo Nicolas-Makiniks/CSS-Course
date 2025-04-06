@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+    background-color: #8f2364;
+    z-index: 100;
+}
+
 #colorTag p {
     color:aquamarine;
 }
@@ -135,7 +146,8 @@ a.buttom {
 }
 
 a.buttom:hover {
-    padding: 10px;
+    padding: 7px;
+    border: 2px solid white;
 }
 
 a.red {
@@ -156,4 +168,50 @@ a.block {
 a.block:hover {
     padding: 10px;
     border: 5px solid black;
+}
+#maxWidthTag {
+    max-width: 800px;
+}
+
+.container {
+    margin: 5px;
+    padding: 5px;
+    background-color: #333;
+    position: relative;
+}
+
+.content {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div1 {
+    background-color: red;
+    position: relative;
+    left: 50px;
+}
+
+.div2 {
+    background-color: green;
+    position: relative;
+}
+
+.div3 {
+    background-color: blue;
+}
+
+.div4 {
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.div5 {
+    background-color: coral;
+    position: sticky;
+    bottom: 0%;
 }
