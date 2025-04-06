@@ -7,11 +7,16 @@
 
 header {
     background-color: #8f2364;
-    text-align: center;
-    padding: 40px 0px;
 }
 
-nav {
+header a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+/* nav {
     overflow: hidden;
     background-color: #771d53;
 }
@@ -24,7 +29,7 @@ nav a {
 
 nav :hover {
     background-color: #3f0f2d;
-}
+} */
 
 article {
     background-color: black;
@@ -35,4 +40,12 @@ article {
 
 article a {
     color: brown;
+    border: 1px solid brown;
+    padding: 5px;
+}
+
+article a:hover {
+    padding: 7px;
+    background-color: brown;
+    color: white;
 }
