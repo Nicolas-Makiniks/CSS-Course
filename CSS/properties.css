@@ -11,19 +11,19 @@
     z-index: 100;
 }
 
-#colorTag p {
+#colorProperty p {
     color:aquamarine;
 }
 
-#bgColorTag {
+#bgColorProperty {
     background-color: burlywood;
 }
 
-#bgColorTag p {
+#bgColorProperty p {
     color: black;
 }
 
-#bgImgTag {
+#bgImgProperty {
     /* background-image: url(../img/space-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -36,18 +36,18 @@
     
 }
 
-#borderTag {
+#borderProperty {
     border-style: dashed;
     border-color: cyan;
     border-width: 5px;
     border-radius: 20px;
 }
 
-#marginTag {
+#marginProperty {
     margin-left: 25px;
 }
 
-#paddingTag {
+#paddingProperty {
     padding-left: 50px;
 }
 
@@ -84,12 +84,12 @@
     word-spacing: 15px;
 }
 
-#sizeTag {
+#sizeProperty {
     width: 200px;
     height: auto;
 }
 
-#fontTag {
+#fontProperty {
     font-family: "Winky Sans", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -176,7 +176,7 @@ a.block:hover {
     padding: 10px;
     border: 5px solid black;
 }
-#maxWidthTag {
+#maxWidthProperty {
     max-width: 800px;
 }
 
@@ -223,7 +223,38 @@ a.block:hover {
     bottom: 0%;
 }
 
-#overflowTag {
+#overflowProperty {
     height: 100px;
     overflow: auto;
+}
+
+.containerBox {
+    overflow: auto;
+    background-color: #111;
+    padding: 10px;
+    margin: 10px;
+    text-indent: 20px;
+}
+
+.imgLeft, .imgRight {
+    width: 300px;
+    border: 2px solid grey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imgLeft {
+    float: left;
+}
+
+.imgRight {
+    float: right;
+}
+
+.contentLeft {
+    clear: right;
+}
+
+.contentRight {
+    clear: left;
 }
