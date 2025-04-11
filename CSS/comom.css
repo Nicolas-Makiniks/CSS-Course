@@ -1,8 +1,5 @@
 * {
-    text-decoration: none;
-    margin: 0px;
-    box-sizing: border-box;
-    color: white;
+    margin: 0;
 }
 
 header {
@@ -14,37 +11,25 @@ header a {
     width: 100%;
     text-align: center;
     padding: 40px;
+    color: white;
+    text-decoration: none;
 }
-
-/* nav {
-    overflow: hidden;
-    background-color: #771d53;
-}
-
-nav a {
-    padding: 14px 16px;
-    display: block;
-    float: left;
-}
-
-nav :hover {
-    background-color: #3f0f2d;
-} */
 
 article {
     background-color: black;
     margin: 4px;
     padding: 15px;
     border-radius: 5px;
+    color: white;
 }
 
-article a {
+article a.link {
     color: brown;
     border: 1px solid brown;
     padding: 5px;
 }
 
-article a:hover {
+article a.link:hover {
     padding: 7px;
     background-color: brown;
     color: white;
