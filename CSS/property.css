@@ -344,3 +344,19 @@ li.dropdown {
 .dropdown:hover .dropdownContent {
     display: block;
 }
+
+.specificity p {
+    color: red;
+}
+
+#priority {
+    color: green;
+}
+
+.specificity .priority {
+    color: blue;
+}
+
+.specificity .yellow {
+    color: yellow;
+}
