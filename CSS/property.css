@@ -360,3 +360,7 @@ li.dropdown {
 .specificity .yellow {
     color: yellow;
 }
+
+.important {
+    color: orange !important;
+}
